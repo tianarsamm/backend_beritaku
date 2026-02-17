@@ -35,12 +35,16 @@
     "@types/react-dom": "^18",
     "typescript": "^5"
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "*",
+    "@swc/core-linux-x64-gnu": "*"
+  },
   "engines": {
     "node": ">=20 <=24",
     "npm": ">=6.0.0"
   },
   "strapi": {
     "uuid": "6035c496-cf40-43c7-bfe5-5e1dbbb6a507",
-    "installId": "60cf32a7509269dca729ebcd638ccbe5c352b414568afb5eafa189e79eebc47b"
+    "installId": "60cf32a7509269dca729ebcd638ccbe5c352b414568afb5eefa189e79eebc47b"
   }
 }
